@@ -15,4 +15,4 @@ class FullTimeEmp extends Emp {
 }
 
 const fullTime = new FullTimeEmp("mani", 50000);
-console.log(fullTime.calcuSal());
+console.log(fullTime.calcuSal()); 
