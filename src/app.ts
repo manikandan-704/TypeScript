@@ -1,6 +1,9 @@
-import {sub,mul,div} from "./math.js";
+import {Fun} from "./math.js";
+import add from "./math.js";
 
-console.log(sub(1,2));
-console.log(mul(2,2));
-console.log(div(5,2));
+console.log(Fun.sub(1,2));
+console.log(Fun.mul(2,2));
+console.log(Fun.div(5,2));
+console.log(add(2,3));
+
 
